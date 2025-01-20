@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <PropertyGroup>
+    <PackageJsonName Condition="$(PackageJsonName) == ''">template-vite-react-ts-tailwind</PackageJsonName>
+    <PackageJsonPrivate Condition="$(PackageJsonPrivate) == ''">true</PackageJsonPrivate>
+    <PackageJsonVersion Condition="$(PackageJsonVersion) == ''">0.0.0</PackageJsonVersion>
+    <PackageJsonType Condition="$(PackageJsonType) == ''">module</PackageJsonType>
+    <PackageJsonScriptsDev Condition="$(PackageJsonScriptsDev) == ''">vite</PackageJsonScriptsDev>
+    <PackageJsonScriptsBuild Condition="$(PackageJsonScriptsBuild) == ''">tsc &amp;&amp; vite build</PackageJsonScriptsBuild>
+    <PackageJsonScriptsPreview Condition="$(PackageJsonScriptsPreview) == ''">vite preview</PackageJsonScriptsPreview>
+    <PackageJsonScriptsTest Condition="$(PackageJsonScriptsTest) == ''">jest</PackageJsonScriptsTest>
+    <PackageJsonDependenciesReduxjsToolkit Condition="$(PackageJsonDependenciesReduxjsToolkit) == ''">2.5.0</PackageJsonDependenciesReduxjsToolkit>
+    <PackageJsonDependenciesInstall Condition="$(PackageJsonDependenciesInstall) == ''">0.13.0</PackageJsonDependenciesInstall>
+    <PackageJsonDependenciesMarked Condition="$(PackageJsonDependenciesMarked) == ''">15.0.6</PackageJsonDependenciesMarked>
+    <PackageJsonDependenciesNpm Condition="$(PackageJsonDependenciesNpm) == ''">11.0.0</PackageJsonDependenciesNpm>
+    <PackageJsonDependenciesReact Condition="$(PackageJsonDependenciesReact) == ''">18.3.1</PackageJsonDependenciesReact>
+    <PackageJsonDependenciesReactDom Condition="$(PackageJsonDependenciesReactDom) == ''">18.3.1</PackageJsonDependenciesReactDom>
+    <PackageJsonDependenciesReactMarkdown Condition="$(PackageJsonDependenciesReactMarkdown) == ''">9.0.3</PackageJsonDependenciesReactMarkdown>
+    <PackageJsonDependenciesReactRedux Condition="$(PackageJsonDependenciesReactRedux) == ''">9.2.0</PackageJsonDependenciesReactRedux>
+    <PackageJsonDependenciesReactRouterDom Condition="$(PackageJsonDependenciesReactRouterDom) == ''">7.1.1</PackageJsonDependenciesReactRouterDom>
+    <PackageJsonDependenciesRedux Condition="$(PackageJsonDependenciesRedux) == ''">5.0.1</PackageJsonDependenciesRedux>
+    <PackageJsonDependenciesRehypeRaw Condition="$(PackageJsonDependenciesRehypeRaw) == ''">7.0.0</PackageJsonDependenciesRehypeRaw>
+    <PackageJsonDependenciesRemarkGfm Condition="$(PackageJsonDependenciesRemarkGfm) == ''">4.0.0</PackageJsonDependenciesRemarkGfm>
+    <PackageJsonDependenciesTailwindcss Condition="$(PackageJsonDependenciesTailwindcss) == ''">3.4.17</PackageJsonDependenciesTailwindcss>
+    <PackageJsonDevdependenciesBabelPresetEnv Condition="$(PackageJsonDevdependenciesBabelPresetEnv) == ''">7.26.0</PackageJsonDevdependenciesBabelPresetEnv>
+    <PackageJsonDevdependenciesBabelPresetReact Condition="$(PackageJsonDevdependenciesBabelPresetReact) == ''">7.26.3</PackageJsonDevdependenciesBabelPresetReact>
+    <PackageJsonDevdependenciesBabelPresetTypescript Condition="$(PackageJsonDevdependenciesBabelPresetTypescript) == ''">7.26.0</PackageJsonDevdependenciesBabelPresetTypescript>
+    <PackageJsonDevdependenciesNablaVitePluginEslint Condition="$(PackageJsonDevdependenciesNablaVitePluginEslint) == ''">2.0.4</PackageJsonDevdependenciesNablaVitePluginEslint>
+    <PackageJsonDevdependenciesSinonjsTextEncoding Condition="$(PackageJsonDevdependenciesSinonjsTextEncoding) == ''">0.7.3</PackageJsonDevdependenciesSinonjsTextEncoding>
+    <PackageJsonDevdependenciesTestingLibraryDom Condition="$(PackageJsonDevdependenciesTestingLibraryDom) == ''">10.4.0</PackageJsonDevdependenciesTestingLibraryDom>
+    <PackageJsonDevdependenciesTestingLibraryJestDom Condition="$(PackageJsonDevdependenciesTestingLibraryJestDom) == ''">6.6.3</PackageJsonDevdependenciesTestingLibraryJestDom>
+    <PackageJsonDevdependenciesTestingLibraryReact Condition="$(PackageJsonDevdependenciesTestingLibraryReact) == ''">16.2.0</PackageJsonDevdependenciesTestingLibraryReact>
+    <PackageJsonDevdependenciesTestingLibraryUserEvent Condition="$(PackageJsonDevdependenciesTestingLibraryUserEvent) == ''">14.6.0</PackageJsonDevdependenciesTestingLibraryUserEvent>
+    <PackageJsonDevdependenciesTypesJest Condition="$(PackageJsonDevdependenciesTypesJest) == ''">29.5.14</PackageJsonDevdependenciesTypesJest>
+    <PackageJsonDevdependenciesTypesNode Condition="$(PackageJsonDevdependenciesTypesNode) == ''">20.12.13</PackageJsonDevdependenciesTypesNode>
+    <PackageJsonDevdependenciesTypesReact Condition="$(PackageJsonDevdependenciesTypesReact) == ''">18.3.3</PackageJsonDevdependenciesTypesReact>
+    <PackageJsonDevdependenciesTypesReactDom Condition="$(PackageJsonDevdependenciesTypesReactDom) == ''">18.3.0</PackageJsonDevdependenciesTypesReactDom>
+    <PackageJsonDevdependenciesTypesReactRedux Condition="$(PackageJsonDevdependenciesTypesReactRedux) == ''">7.1.34</PackageJsonDevdependenciesTypesReactRedux>
+    <PackageJsonDevdependenciesTypesReactRouterDom Condition="$(PackageJsonDevdependenciesTypesReactRouterDom) == ''">5.3.3</PackageJsonDevdependenciesTypesReactRouterDom>
+    <PackageJsonDevdependenciesTypesRedux Condition="$(PackageJsonDevdependenciesTypesRedux) == ''">3.6.31</PackageJsonDevdependenciesTypesRedux>
+    <PackageJsonDevdependenciesTypesTestingLibraryJestDom Condition="$(PackageJsonDevdependenciesTypesTestingLibraryJestDom) == ''">5.14.9</PackageJsonDevdependenciesTypesTestingLibraryJestDom>
+    <PackageJsonDevdependenciesTypescriptEslintEslintPlugin Condition="$(PackageJsonDevdependenciesTypescriptEslintEslintPlugin) == ''">8.20.0</PackageJsonDevdependenciesTypescriptEslintEslintPlugin>
+    <PackageJsonDevdependenciesTypescriptEslintParser Condition="$(PackageJsonDevdependenciesTypescriptEslintParser) == ''">8.20.0</PackageJsonDevdependenciesTypescriptEslintParser>
+    <PackageJsonDevdependenciesVitejsPluginReactSwc Condition="$(PackageJsonDevdependenciesVitejsPluginReactSwc) == ''">3.7.0</PackageJsonDevdependenciesVitejsPluginReactSwc>
+    <PackageJsonDevdependenciesAutoprefixer Condition="$(PackageJsonDevdependenciesAutoprefixer) == ''">10.4.14</PackageJsonDevdependenciesAutoprefixer>
+    <PackageJsonDevdependenciesEslint Condition="$(PackageJsonDevdependenciesEslint) == ''">9.18.0</PackageJsonDevdependenciesEslint>
+    <PackageJsonDevdependenciesEslintConfigPrettier Condition="$(PackageJsonDevdependenciesEslintConfigPrettier) == ''">10.0.1</PackageJsonDevdependenciesEslintConfigPrettier>
+    <PackageJsonDevdependenciesEslintPluginImport Condition="$(PackageJsonDevdependenciesEslintPluginImport) == ''">2.31.0</PackageJsonDevdependenciesEslintPluginImport>
+    <PackageJsonDevdependenciesEslintPluginPrettier Condition="$(PackageJsonDevdependenciesEslintPluginPrettier) == ''">5.2.2</PackageJsonDevdependenciesEslintPluginPrettier>
+    <PackageJsonDevdependenciesEslintPluginReact Condition="$(PackageJsonDevdependenciesEslintPluginReact) == ''">7.37.4</PackageJsonDevdependenciesEslintPluginReact>
+    <PackageJsonDevdependenciesEslintPluginReactHooks Condition="$(PackageJsonDevdependenciesEslintPluginReactHooks) == ''">5.1.0</PackageJsonDevdependenciesEslintPluginReactHooks>
+    <PackageJsonDevdependenciesEslintPluginReactRefresh Condition="$(PackageJsonDevdependenciesEslintPluginReactRefresh) == ''">0.4.18</PackageJsonDevdependenciesEslintPluginReactRefresh>
+    <PackageJsonDevdependenciesJest Condition="$(PackageJsonDevdependenciesJest) == ''">29.7.0</PackageJsonDevdependenciesJest>
+    <PackageJsonDevdependenciesJestEnvironmentJsdom Condition="$(PackageJsonDevdependenciesJestEnvironmentJsdom) == ''">29.7.0</PackageJsonDevdependenciesJestEnvironmentJsdom>
+    <PackageJsonDevdependenciesPostcss Condition="$(PackageJsonDevdependenciesPostcss) == ''">8.4.33</PackageJsonDevdependenciesPostcss>
+    <PackageJsonDevdependenciesPrettier Condition="$(PackageJsonDevdependenciesPrettier) == ''">3.1.0</PackageJsonDevdependenciesPrettier>
+    <PackageJsonDevdependenciesPrettierPluginTailwindcss Condition="$(PackageJsonDevdependenciesPrettierPluginTailwindcss) == ''">0.4.1</PackageJsonDevdependenciesPrettierPluginTailwindcss>
+    <PackageJsonDevdependenciesTsJest Condition="$(PackageJsonDevdependenciesTsJest) == ''">29.2.5</PackageJsonDevdependenciesTsJest>
+    <PackageJsonDevdependenciesTypescript Condition="$(PackageJsonDevdependenciesTypescript) == ''">5.2.2</PackageJsonDevdependenciesTypescript>
+    <PackageJsonDevdependenciesUtil Condition="$(PackageJsonDevdependenciesUtil) == ''">0.12.5</PackageJsonDevdependenciesUtil>
+    <PackageJsonDevdependenciesVite Condition="$(PackageJsonDevdependenciesVite) == ''">5.4.11</PackageJsonDevdependenciesVite>
+  </PropertyGroup>
+</Project>

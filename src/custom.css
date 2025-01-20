@@ -1,0 +1,42 @@
+/* This CSS style is needed to stop tailwind from interfering with the rendering of the markdown file in the about page. */
+/* Custom CSS to ensure <br> tags function correctly */
+.markdown-content br {
+    display: block;
+    margin-bottom: 1rem; /* Optional: Add space below line breaks */
+    content: "";
+    white-space: pre-line; /* Ensure line breaks are preserved */
+}
+
+/* Custom CSS for <li> tags */
+.markdown-content ul,
+.markdown-content ol {
+    padding-left: 1.5em; /* Add padding to nested lists */
+    list-style: disc inside; /* Ensure list styles are displayed */
+}
+
+.markdown-content li {
+    display: list-item;
+    margin-bottom: 0.5em; /* Add spacing between list items */
+}
+
+/* Custom CSS for heading tags */
+.markdown-content h1,
+.markdown-content h2,
+.markdown-content h3 {
+    margin-top: 1em; /* Add space above headings */
+    margin-bottom: 0.5em; /* Add space below headings */
+    font-weight: bold; /* Ensure headings are bold */
+    line-height: 1.2; /* Adjust line height for readability */
+}
+
+.markdown-content h1 {
+    font-size: 2.25em; /* Adjust font size for h1 */
+}
+
+.markdown-content h2 {
+    font-size: 1.75em; /* Adjust font size for h2 */
+}
+
+.markdown-content h3 {
+    font-size: 1.5em; /* Adjust font size for h3 */
+}
